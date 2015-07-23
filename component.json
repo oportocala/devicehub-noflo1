@@ -1,0 +1,24 @@
+{
+	"name": "noflo-devicehub",
+	"description": "DeviceHub.net components for NoFlo",
+	"author": "Vlad Goran <oportocala@gmail.com>",
+	"repo": "devicehub/noflo-components",
+	"version": "0.0.1",
+	"keywords": [],
+	"dependencies": {
+		"noflo/noflo": "*"
+	},
+	"scripts": [
+		"components/Sensor.coffee",
+		"index.js"
+	],
+	"json": [
+		"component.json"
+	],
+	"noflo": {
+		"icon": "space-shuttle",
+		"components": {
+			"Sensor": "components/Sensor.coffee"
+		}
+	}
+}
