@@ -9,9 +9,11 @@
     "noflo/noflo": "*"
   },
   "scripts": [
-    "components/Sensor.coffee",
     "index.js",
-    "graphs/sensor.fbp"
+    "graphs/sensor.fbp",
+    "components/ActuatorStateSet.coffee",
+    "components/ActuatorStateSetUrl.coffee",
+    "components/SensorUrl.coffee"
   ],
   "json": [
     "component.json"
@@ -19,7 +21,9 @@
   "noflo": {
     "icon": "space-shuttle",
     "components": {
-      "Sensor": "components/Sensor.coffee"
+      "ActuatorStateSet": "components/ActuatorStateSet.coffee",
+      "ActuatorStateSetUrl": "components/ActuatorStateSetUrl.coffee",
+      "SensorUrl": "components/SensorUrl.coffee"
     },
     "graphs": {
       "sensor": "graphs/sensor.fbp"

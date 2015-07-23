@@ -16,7 +16,11 @@
   },
   "homepage": "https://github.com/oportocala/devicehub-noflo1",
   "dependencies": {
-    "noflo": "0.5.x"
+    "noflo": "0.5.x",
+    "noflo-core": "0.1.x",
+    "noflo-strings": "0.1.x",
+    "noflo-websocket": "0.1.x",
+    "noflo-objects": "0.1.x"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -34,7 +38,9 @@
   "noflo": {
     "icon": "github-alt",
     "components": {
-      "Sensor": "components/Sensor.coffee"
+      "ActuatorStateSet": "components/ActuatorStateSet.coffee",
+      "ActuatorStateSetUrl": "components/ActuatorStateSetUrl.coffee",
+      "SensorUrl": "components/SensorUrl.coffee"
     },
     "graphs": {
       "sensor": "graphs/sensor.fbp"

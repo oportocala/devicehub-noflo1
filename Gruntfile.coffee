@@ -25,7 +25,7 @@ module.exports = ->
     noflo_browser:
       build:
         files:
-          'browser/noflo-math.js': ['component.json']
+          'browser/noflo-devicehub.js': ['component.json']
 
   # JavaScript minification for the browser
     uglify:
@@ -33,7 +33,7 @@ module.exports = ->
         report: 'min'
       noflo:
         files:
-          './browser/noflo-math.min.js': ['./browser/noflo-math.js']
+          './browser/noflo-devicehub.min.js': ['./browser/noflo-devicehub.js']
 
   # Automated recompilation and testing when developing
     watch:
