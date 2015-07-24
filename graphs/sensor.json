@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "name": "sensor",
+        "environment": {}
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {},
+    "connections": []
+}
